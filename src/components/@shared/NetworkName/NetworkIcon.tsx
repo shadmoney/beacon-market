@@ -11,6 +11,8 @@ export function NetworkIcon({ name }: { name: string }): ReactElement {
     ? EthIcon
     : name.includes('Polygon')
     ? PolygonIcon
+    : name.includes('Metis')
+    ? EthIcon
     : name.includes('Moon')
     ? MoonbeamIcon
     : name.includes('BSC')
