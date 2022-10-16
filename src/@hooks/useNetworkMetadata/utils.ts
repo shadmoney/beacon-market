@@ -41,7 +41,7 @@ export function getNetworkDisplayName(
       displayName = 'Mumbai'
       break
     case 588:
-      displayName = 'Metis'
+      displayName = 'Arbitrum'
       break
     case 8996:
       displayName = 'Development'
