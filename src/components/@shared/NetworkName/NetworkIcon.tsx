@@ -13,6 +13,8 @@ export function NetworkIcon({ name }: { name: string }): ReactElement {
     ? PolygonIcon
     : name.includes('Optimism')
     ? EthIcon
+    : name.includes('EVMOS')
+    ? EthIcon
     : name.includes('Moon')
     ? MoonbeamIcon
     : name.includes('BSC')

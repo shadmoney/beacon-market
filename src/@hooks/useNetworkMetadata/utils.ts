@@ -55,6 +55,9 @@ export function getNetworkDisplayName(
     case 5:
       displayName = 'Görli'
       break
+    case 9000:
+      displayName = 'EVMOS'
+      break
     case 2021000:
       displayName = 'GAIA-X'
       break
